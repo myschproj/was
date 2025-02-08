@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    background-image: url(https://rf0x3d.su/assets/favico/eblan.png);
+    backdrop-filter: blur(25px);
+    background-size: 100vw 100vh;
+}
+
+.time{
+    font-size: 15vw;
+}
+
+h1{
+    margin-bottom: 10vh;
+}
+
+button{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    height: 6vh;
+    width: 30vw;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10vh;
+}
+
+button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+
